@@ -1,0 +1,16 @@
+{
+ "targets_filename": "my_repo",
+ "keys":{
+  "adcc0c3a9a3176a14f420105cc43ed141169265bcd8a89610edbc7fc88556c5f": {
+   "keyid_hash_algorithms": [
+    "sha256",
+    "sha512"
+   ],
+   "keytype": "ed25519",
+   "keyval": {
+    "public": "91475fa1f098a2c71fb8051fb9819ab0f9bec959313baf87ff7499428eebc67e"
+   },
+   "scheme": "ed25519"
+  }
+ }
+}
