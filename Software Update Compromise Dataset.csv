@@ -1,0 +1,30 @@
+name,date,link,type
+PEAR,1/19/19,https://blog.cpanel.com/when-php-went-pear-shaped-the-php-pear-compromise/,repository compromise
+Keydnap,8/30/16,https://www.welivesecurity.com/2016/08/30/osxkeydnap-spreads-via-signed-transmission-application/,compromised key for other trusted developer
+KeRanger,3/6/16,https://unit42.paloaltonetworks.com/new-os-x-ransomware-keranger-infected-transmission-bittorrent-client-installer/,compromised key for other trusted developer
+Operation Red Signature,8/21/18,https://www.trendmicro.com/en_us/research/18/h/supply-chain-attack-operation-red-signature-targets-south-korean-organizations.html,compromised key and repository
+CCleaner,4/18/18,https://thehackernews.com/2018/04/ccleaner-malware-attack.html,repository compromise
+NotPetya/DiskCoder.C,6/27/17,https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/,repository compromise
+Gentoo,6/28/18,https://wiki.gentoo.org/wiki/Project:Infrastructure/Incident_Reports/2018-06-28_Github,repository compromise
+Unnamed Maker,7/26/18,https://www.bleepingcomputer.com/news/security/microsoft-discovers-supply-chain-attack-at-unnamed-maker-of-pdf-software/,redirect to attacker repository
+Linux Mint,2/20/16,https://www.zdnet.com/article/hacker-hundreds-were-tricked-into-installing-linux-mint-backdoor/,repository compromise
+Suspicious File,12/17/17,https://bitcoingold.org/vulnerable-wallets/,repository compromise
+FossHub,8/3/16,https://www.ghacks.net/2016/08/03/attention-fosshub-downloads-compromised/,repository compromise
+Elmedia Player,10/19/17,https://www.hackread.com/hackers-infect-mac-users-proton-malware-using-elmedia-player/,repository compromise
+HandBrake,5/2/17,https://blog.malwarebytes.com/threat-analysis/mac-threat-analysis/2017/05/handbrake-hacked-to-drop-new-variant-of-proton-malware/,repository compromise
+SolarWinds,3/2020,https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html,compromised key and repository
+The Great Suspender,11/6/2020,https://github.com/greatsuspender/thegreatsuspender/issues/1263#issuecomment-735409569,malicious new developer
+Electron Native Notify,6/5/2019,https://blog.npmjs.org/post/185397814280/plot-to-steal-cryptocurrency-foiled-by-the-npm,compromised key
+purescript,7/5/19,https://jsoverson.medium.com/how-two-malicious-npm-packages-targeted-sabotaged-one-other-fed7199099c8,compromised key
+ShadowHammer,1/2019,https://securelist.com/operation-shadowhammer-a-high-profile-supply-chain-attack/90380/,compromised key and repository
+cdnjs,7/16/21,https://blog.ryotak.me/post/cdnjs-remote-code-execution-en/,repository compromise
+js-faker-colors,1/10/2022,https://blog.sonatype.com/npm-libraries-colors-and-faker-sabotaged-in-protest-by-their-maintainer-what-to-do-now,malicious developer
+peacenotwar,3/15/2022,https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/,malicious developer
+coa/rc,11/5/21,https://blog.sonatype.com/npm-hijackers-at-it-again-popular-coa-and-rc-open-source-libraries-taken-over-to-spread-malware,Compromised key
+ua-parse-js,10/22/21,https://github.com/faisalman/ua-parser-js/issues/536,Compromised key
+dependency confusion,2/9/2021,https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610,redirect to attacker repository
+Monju,1/27/14,https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/The_Monju_Incident.pdf,repository compromise
+Apache incident,2010,https://github.com/cncf/tag-security/blob/main/supply-chain-security/compromises/2010/apache.md,Compromised key
+Wordpress,2007,https://github.com/cncf/tag-security/blob/main/supply-chain-security/compromises/2007/wordpress.md,repository compromise
+SquirrelMail,2007,https://github.com/cncf/tag-security/blob/main/supply-chain-security/compromises/2007/squirrelmail.md,Compromised key
+Debian,2003,https://github.com/cncf/tag-security/blob/main/supply-chain-security/compromises/2003/debian.md,repository compromise

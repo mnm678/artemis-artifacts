@@ -3,6 +3,7 @@ This repository contains the artifacts associated with the paper "Artemis: Defan
 Multi-repository Update Systems" published in ACSAC 2023.
 
 ## Data
+The data for the software update compromise analysis can be found in `Software Update Compromise Dataset.csv`.
 
 ## Demo Code
 ### Intallation
