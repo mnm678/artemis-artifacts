@@ -1,0 +1,19 @@
+certifi==2020.6.20       # via requests
+cffi==1.14.2              # via cryptography, pynacl
+chardet==3.0.4            # via requests
+colorama==0.4.3           # via securesystemslib
+enum34==1.1.6             ; python_version < '3' # via cryptography
+idna==2.10                 # via requests
+ipaddress==1.0.23         ; python_version < '3' # via cryptography
+iso8601==0.1.12
+pycparser==2.20           # via cffi
+pynacl==1.4.0             # via securesystemslib
+python-dateutil==2.8.1    # via securesystemslib
+requests==2.24.0
+securesystemslib[colors,crypto,pynacl]==0.18.0
+six==1.15.0
+subprocess32==3.5.4       ; python_version < '3' # via securesystemslib
+urllib3==1.25.10           # via requests
+
+tuf @ git+https://github.com/mnm678/tuf@notarydemo
+
