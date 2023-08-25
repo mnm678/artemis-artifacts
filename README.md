@@ -5,7 +5,12 @@ Multi-repository Update Systems" published in ACSAC 2023.
 ## Data
 The data for the software update compromise analysis can be found in `Software Update Compromise Dataset.csv`.
 
-## Demo Code
+## Runtime Testing Code
+
+The scripts provided will set up 2 repositories and a client. These can then be used to run both TUF and Artemis verification. The runtime of `without-artemis-download.py` can then be compared to the runtime of `artemis-download.py`. The metadata downloaded can be found in `local-repository/updater` for the non-artemis run, and in the two directories `local-repository/registry` and `local-repository/test_repository1`.
+
+To do further experiments with Artemis, the targets and repository map files in this example may be changed. Changing the contents of the repository will require changes to the `demo.py` setup script.
+
 ### Intallation
 To install the requirements, run `pip install -r requirements.txt`
 
