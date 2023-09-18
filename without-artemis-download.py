@@ -9,6 +9,7 @@ repository_mirrors = {'mirror1': {'url_prefix': 'http://localhost:8001',
                                     'targets_path': 'targets',
                                     'confined_target_dirs': ['']}}
 
+# the Updater only supports single-repository download
 updater = tuf.client.updater.Updater('updater', repository_mirrors)
 updater.refresh()
 

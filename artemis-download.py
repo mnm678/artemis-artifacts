@@ -4,6 +4,8 @@ image_name = "my_repo/image1"
 
 tuf.settings.repositories_directory = 'local-repository'
 
+# MultiRepoUpdater implements Artemis by supporting multiple repositories
+# The repository map file and targets map file are passed in
 updater = tuf.client.updater.MultiRepoUpdater('map', 'targets_mapping.json')
 
 info = updater.get_valid_targetinfo(image_name)
