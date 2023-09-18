@@ -1,7 +1,7 @@
 from tuf.repository_tool import *
 
 # For more documentation about the commands used in this setup, see
-# https://github.com/theupdateframework/tuf/blob/develop/docs/TUTORIAL.md
+# https://github.com/mnm678/tuf/blob/notarydemo/docs/TUTORIAL.md
 
 def generate_keys():
   # Writes keys to keystore/*
