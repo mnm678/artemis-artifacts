@@ -1,6 +1,7 @@
 # Artemis Artifacts
 This repository contains the artifacts associated with the paper "Artemis: Defanging Software Supply Chain Attacks in
 Multi-repository Update Systems" published in ACSAC 2023.
+The code for Artemis is implemented in python-tuf, and is available at: https://github.com/mnm678/tuf/tree/notarydemo
 
 ## Data
 The data for the software update compromise analysis can be found in `Software Update Compromise Dataset.csv`.
@@ -12,6 +13,8 @@ The scripts provided will set up 2 repositories and a client. These can then be 
 To do further experiments with Artemis, the targets and repository map files in this example may be changed. Changing the contents of the repository will require changes to the `demo.py` setup script.
 
 ### Intallation
+This program will require Python 3.7.
+
 To install the requirements, run `pip install -r requirements.txt`
 
 ### Setup
@@ -59,7 +62,7 @@ Copy these values into the labeled locations in `targets_mapping.json`.
 ### Run without Artemis
 Open 2 terminals in this directory. In the first, run:
 
-* `cd repository`
+* `cd registry`
 * `python3 -m http.server 8001`
 
 In the second, run:
