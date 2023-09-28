@@ -60,6 +60,18 @@ Then, to set up the client, set up metadata directories for each repository. To 
 Copy these values into the labeled locations in `targets_mapping.json`.
 
 ### Run without Artemis
+Run:
+
+* `./without-artemis-measurements.sh`
+
+### Run with Artemis
+Run:
+
+* `./artemis-measurements.sh`
+
+### To run manually
+
+#### Run without Artemis
 Open 2 terminals in this directory. In the first, run:
 
 * `cd registry`
@@ -69,7 +81,7 @@ In the second, run:
 
 * `python without-artemis-download.py`
 
-### Run with Artemis
+#### Run with Artemis
 Open 3 terminals in this directory. The first two will be repositories, and the third will be a client. In the first (if the server is not still running from "Run without Artemis"), run:
 
 * `cd registry`
